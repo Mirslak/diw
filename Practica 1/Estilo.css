@@ -1,0 +1,24 @@
+header{
+    background-color:#df5c53;
+}
+main{
+    background-color:#3993dd;
+    padding: 2px;
+    border: 2px black solid;
+    margin: 3px;
+}
+article{
+    background-color: #44cf6c;
+}
+section{
+    background-color: #44cf6c;
+}
+nav{
+    background-color: #eafa73;
+}
+aside{
+    background-color: #13b6c5;
+}
+footer{
+    background-color:#e0acd5 ;
+}
