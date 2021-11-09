@@ -1,0 +1,45 @@
+*{
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+body{
+    border: 5px solid grey;
+}
+
+header{
+    border: 10px solid #df5c53;
+    padding: 10px;
+    margin: 10px;  
+}
+
+aside{
+    border: 10px solid #44cf6c;
+    padding: 10px;
+    margin: 10px;  
+    width: 25%;
+    float: left;
+    height: 400px;
+}
+nav{
+    border: 10px solid #3993dd;
+    padding: 10px;
+    margin: 10px;  
+}
+article{
+    border: 10px solid #eafa73;
+    padding: 10px;
+    margin: 10px;  
+    height: 300px;
+}
+footer{
+    border: 10px solid purple;
+    padding: 10px;
+    margin: 10px;  
+    clear: both;
+}
+#lat{
+    width: 32%;
+    float: right;
+    width: 70%;
+}
