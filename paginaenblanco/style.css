@@ -1,0 +1,17 @@
+header{
+    width: 200px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 200px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
