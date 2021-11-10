@@ -1,0 +1,47 @@
+*{
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+header{
+    background-color: #df5c53;
+    height: 130px;
+}
+
+nav{
+    background-color: #eafa73;
+    margin: 35px 0;
+    float: right;
+    width: 20%;
+}
+
+main{
+    background-color: #3993dd;
+    float: left;
+    width: 65%;
+    height: 440px;
+}
+
+article{
+    background-color: #44cf6c;
+    height: 310px;
+}
+section{
+    background-color: #a9fdac;
+    height: 70px;
+    margin: 15px;
+}
+
+aside{
+    background-color: #13b6c5;
+    float: right;
+    width: 30%;
+    height: 440px;
+}
+footer{
+    background-color:#e0acd5 ;
+    clear: both;
+}
+
