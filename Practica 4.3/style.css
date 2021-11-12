@@ -1,0 +1,56 @@
+*{
+    padding: 7px;
+    margin: 7px;
+}
+div{
+    background-color: #772634;
+    padding: 10px;
+   
+
+    width: 800px;
+    height: 600px;
+
+    box-sizing: border-box;
+
+    color: white;
+}
+
+header{
+    background-color: #76595D;
+    height: 10%;
+}
+
+nav{
+   float: left;
+   background-color: #76595D;
+   height: 70%;
+   width: 20%;
+}
+
+section{
+    display: inline-block;
+    background-color: #76595D;
+    height: 70%;
+    width: 49%;
+}
+
+aside{
+    float: right;
+    background-color: #76595D;
+    height: 70%;
+    width: 20%;
+}
+
+footer{
+    clear: both;
+    background-color: #76595D;
+    height: 6%;
+}
+
+.blanco{
+    background-color: #C9C0C1;
+    color: black;
+}
+
+
+
