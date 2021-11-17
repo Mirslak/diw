@@ -1,0 +1,57 @@
+div{
+   padding: 5px;
+   margin: 5px;
+
+    width: 950px;
+    height: 600px;
+
+    box-sizing: border-box;
+
+   
+}
+
+header{
+    float: right;
+}
+nav{
+    border: 2px solid gray;
+    clear: both;
+
+    height: 6%;
+}
+
+.button{
+    margin: 9px 0;
+    width: 10%;
+    height: 5%;
+
+    float: right;
+}
+
+#instrumentos{
+    margin: 40px 0;
+    width: 25%;
+    float: left; 
+}
+
+article{
+    padding: 10px  ;
+    width: 45%;
+    float: left;
+}
+
+.cuadrado{
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 2px solid grey;
+}
+
+footer{
+    float: right;
+}
+
+aside{
+    float: right;
+    width: 22%;
+    background-color: rgba(231, 228, 228, 0.356);
+}

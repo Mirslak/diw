@@ -1,0 +1,203 @@
+div{
+
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 5px;
+     
+    width: 950px;
+    height: 1500px;
+     
+    box-sizing: border-box;
+            
+}
+
+
+button{
+    background-color:white;
+    width: 15%;
+    height: 40px;
+    padding: 20px 0;
+}
+
+.search{
+    float: right;
+    width: 20%;
+    height: 40px;
+
+}
+
+nav{
+    float: left;
+    clear: both;
+}
+
+.foto{
+    margin: 10px ;
+
+    float: left;
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 200px;
+    height: 90px;
+}
+
+.enblanco{
+margin: 10px 0;
+
+    width: 700px;
+    height: 85px;
+    border: 2px solid black;
+    float: right;
+}
+
+main{
+    float: left;
+  
+    height: 600px;
+    width: 400px;
+}
+
+footer{
+    margin: 5px;
+    color: white;
+    background-color:#2196F3 ;
+    clear: both;
+    height: 30px;
+}
+
+.foto2{
+    margin: 10px;
+    float: left;
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 300px;
+    height: 180px;
+}
+
+.text{
+    width: 308px;
+    clear: both;
+}
+
+.foto3{
+    float: left;
+
+    margin: 10px;
+
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 150px;
+    height: 150px;
+}
+
+.text3{
+    float: left;
+    width: 200px;
+    height: 20px;
+}
+
+.foto4{
+    clear: both;
+    float: left;
+    margin: 10px;
+
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 150px;
+    height: 150px;
+}
+
+.text4{
+    float: left;
+    width: 200px;
+    height: 20px;
+}
+
+aside{
+    float: left;
+    width: 510px;
+    height: 600px;
+   
+}
+.foto5{
+    float: right;
+    margin: 10px;
+
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 490px;
+    height: 100px;
+}
+
+.text5{
+
+    clear: both;
+    
+    width: 500px;
+    height: 30px;
+}
+
+.foto6{
+    float: left;
+    margin: 10px;
+
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 250px;
+    height: 100px;
+}
+
+.text6{
+   
+    width: 200px;
+    height: 30px;
+}
+
+.foto7{
+    float: right;
+    margin: 10px;
+
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 200px;
+    height: 100px;
+}
+.text7{
+    float: right;
+    
+    width: 200px;
+    height: 30px;
+}
+
+.text8{
+    clear: both;
+    height: 40px;
+    width: 200px;
+    
+}
+
+.foto8{
+    float: left;
+    margin: 10px;
+
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 150px;
+    height: 100px;
+}
+
+.text9{
+    float: right;
+    height: 40px;
+    width: 200px;
+    
+}
+

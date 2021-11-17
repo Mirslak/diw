@@ -1,0 +1,129 @@
+#principal{
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #BCBDBF;
+    width: 500px;
+    height: 700px;
+}
+
+header{
+    margin: 5px;
+    background-color: white;
+    border: 2px solid #0B965C;
+
+    color: #0B965C;
+
+    height: 10%;
+}
+
+.titulo1{
+    clear: none;
+    height: 30%;
+    width: 97%;
+    color: black;
+    margin: 5px;
+    border: 1px solid grey;
+}
+
+nav{
+    margin: 15px 5px ;
+    color: red;
+    border: 2px solid red;
+    background-color: white;
+
+    height: 5%;
+}
+
+div{
+    
+    height: 68%;
+    width: 65%;
+    float: left;
+    padding: 0;
+}
+section{
+    float:left;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    width: 100%;
+}
+
+.titulo2{
+    width: 97%;
+    height: 5%;
+    margin: 5px;
+    color:black;
+    border: 1px solid grey;
+}
+
+main{
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+    height:78%;
+    background-color: white;
+    border: 2px solid grey;
+}
+.mainSection1{
+    margin: 5px;
+    border: 1px solid grey;
+    width: 95%;
+    height: 30%;
+    color: black;
+}
+#mainHeader{
+    height: 30%;
+}
+
+.mainSection2{
+    color: black;
+    border: 1px solid gray;
+    height: 35%;
+    width: 95%;
+    margin: 5px;
+}
+
+article{
+    margin: 10px;
+    border: 1px solid red;
+    color: red;
+    height: 40%;
+}
+
+.titulo3{
+    width: 97%;
+    height: 45%;
+    margin: 5px;
+    color:black;
+    border: 1px solid grey;
+}
+
+aside{
+    margin: 5px;
+    border: 2px solid red;
+    width: 29%;
+    height: 65%;
+    background-color: white;
+    float: right;
+}
+
+#asideNav{
+    height: 50%;
+}
+
+#asideSection{
+    margin: 5px;
+    width: 90%;
+    height: 35%;
+}
+
+footer{
+    clear: both;
+    border: 2px solid #0B965C;
+    margin: 15px 5px;
+    background-color: white;
+    color: #0B965C;
+
+    height: 10%;
+}
