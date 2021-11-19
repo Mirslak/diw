@@ -1,11 +1,11 @@
 div{
 
-    border: 2px solid grey;
+    
     padding: 5px;
     margin: 5px;
      
     width: 950px;
-    height: 1500px;
+    height: 100 px;
      
     box-sizing: border-box;
             
@@ -20,6 +20,7 @@ button{
 }
 
 .search{
+    border: 2px solid grey;
     float: right;
     width: 20%;
     height: 40px;
@@ -43,8 +44,8 @@ nav{
 }
 
 .enblanco{
-margin: 10px 0;
-
+    margin: 10px 0;
+    text-align: center;
     width: 700px;
     height: 85px;
     border: 2px solid black;
@@ -58,7 +59,8 @@ main{
     width: 400px;
 }
 
-footer{
+#principio{
+    text-align: center;
     margin: 5px;
     color: white;
     background-color:#2196F3 ;
@@ -120,8 +122,8 @@ footer{
 aside{
     float: left;
     width: 510px;
-    height: 600px;
-   
+    height: 300px;
+    
 }
 .foto5{
     float: right;
@@ -154,7 +156,7 @@ aside{
 }
 
 .text6{
-   
+    float: right;
     width: 200px;
     height: 30px;
 }
@@ -170,14 +172,16 @@ aside{
     height: 100px;
 }
 .text7{
-    float: right;
-    
+    float: left;
+   
     width: 200px;
     height: 30px;
 }
 
 .text8{
-    clear: both;
+    float: left;
+    
+    margin: 10px;
     height: 40px;
     width: 200px;
     
@@ -186,7 +190,7 @@ aside{
 .foto8{
     float: left;
     margin: 10px;
-
+    
     background-color: #E6E6E6;
     border-radius: 5px;
 
@@ -195,9 +199,80 @@ aside{
 }
 
 .text9{
-    float: right;
+    float: left;
+    margin: 10px 0;
+    
     height: 40px;
-    width: 200px;
+    width: 250px;
     
 }
 
+.foto9{
+    float:left;
+    margin: 10px 50px;
+    
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.texto10{
+    
+    float: left;
+    margin: 10px -30px;
+    width: 150px;
+    height: 100px;
+}
+
+.foto10{
+    float: left;
+    margin: 10px;
+    
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 150px;
+    height: 100px;
+}
+
+.foto11{
+    float:left;
+    margin: 10px 50px;
+   
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.Final{
+    clear: both;
+    border: 2px solid grey;
+    height: 250px;
+}
+
+.imagenF{
+    float:left;
+   
+    background-color: #E6E6E6;
+    border-radius: 5px;
+
+    width: 150px;
+    height: 100px;
+}
+
+.textF{
+    /*margin: 100px 0px ;*/
+    display: inline-block;
+    width: 500px;
+    
+}
+
+.rss{
+    
+    float: right;
+
+}
