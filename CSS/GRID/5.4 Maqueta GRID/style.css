@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fabricante, .modelo{
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+    margin: 10px;
+}
+
+.layout{
+    max-width: auto;
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+label{
+    padding-top: 5px;
+}
+
+header{
+    padding: 10px;
+}
+
+.button{
+    margin-top: 9px;
+}
+
+.texto{
+    padding: 3px;
+}
+
+.separacion{
+    height: 10px;
+}
+
+.separacion20px{
+height: 20PX;
+}
+
+
+
+/*Aspecto texto*/
+
+.fabricante, .modelo{
+    border: 1px solid black;
+}
+
+
+label,.texto{
+    display: block;
+}
+
+
+fieldset{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.layout{
+    background: linear-gradient(0deg,#787878 0%,#FFFF 100%);
+    border-radius: 10px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", "Verdana", "sans-serif";
+}
+
+.button{
+    padding: 5px;
+    width: 84px;
+
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.del{
+    background-color: red;
+    color: white;
+}
+
+.add{
+    background-color: green;
+}
+
+legend{
+    font-weight: bold;
+}
