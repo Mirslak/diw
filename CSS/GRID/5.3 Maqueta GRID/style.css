@@ -41,13 +41,18 @@
 
 
 .section_hearder{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20% 30% 30% 1fr 1fr;
     grid-row: 1fr 2fr 1fr;
 }
 
 .header_section_imagen{
     grid-column: 2/3;
     grid-row: 2/3;
+}
+
+.header_section_text{
+    grid-column: 3/4;
+    grid-column: 2/3;
 }
 /*Estetica*/
 .div_section1{
