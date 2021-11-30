@@ -3,6 +3,8 @@
     padding: 0;
     
     box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", "Verdana", "sans-serif";
 }
 
 
@@ -26,7 +28,7 @@ img{
 button{
     padding: 6px;
     
-    width: 95px;
+    width: 110px;
 }
 
 form{
@@ -80,6 +82,12 @@ form{
 
 .separador{
     clear: both;
+}
+
+.pie_texto{
+
+    width: 80%;
+    display: inline-block;
 }
 
 /*FAKE TABLE*/
@@ -137,3 +145,4 @@ form{
 .nav__button:hover{
     background-color: #4eacf8;
 }
+
