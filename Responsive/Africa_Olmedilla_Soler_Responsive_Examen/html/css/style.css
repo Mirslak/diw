@@ -1,0 +1,147 @@
+/* Para poner sombra*/
+/*  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3); */
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family:'Times New Roman', Times, serif
+}
+
+.contenedor{
+
+    margin: auto;
+    margin-top: 20px;
+
+    width: 83%;
+}
+
+h3{
+    font-weight: bolder;
+    margin: 10px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+
+}
+
+p{
+    margin: 10px;
+}
+
+button{
+    margin: 20px;
+    height: 35px;
+
+    border: none;
+    background-color:#808080 ;
+    color:white;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*Teléfono*/
+@media (max-width:380px) {
+
+    .contenedor__main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-row: 20px;
+
+    }
+    
+    .contenedor__main-article-telf{
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+
+        width: 240px;
+        height: 400px;
+
+        margin-bottom: 20px;
+
+        background-position: center center;
+
+        color: white;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .contenedor__main-article-pc{
+        display: none;
+    }
+}
+
+/*Tablet*/
+@media (max-width:800px) {
+    img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .contenedor__main{
+        display: grid;
+        grid-template-columns: .5fr .5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap:20px;
+
+ 
+    }
+    
+    article{
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+
+        width: 240px;
+        height: 370px;
+    }
+
+    h3{
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .contenedor__main-article-telf{
+        display: none;
+    }
+}
+
+/*PC*/
+@media (min-width:801px) {
+    
+    img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .contenedor__main{
+        display: grid;
+        grid-template-columns: .5fr .5fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap:20px;
+
+ 
+    }
+    
+    article{
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+
+        width: 240px;
+        height: 370px;
+    }
+
+    h3{
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .contenedor__main-article-telf{
+        display: none;
+    }
+}
